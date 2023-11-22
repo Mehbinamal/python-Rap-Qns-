@@ -1,0 +1,6 @@
+a = int(input("Enter coefficient of 'X^2' :"))
+b = int(input("Enter coefficient of 'X':"))
+c = int(input("Enter constant term : "))
+d = ((-b)+((b**2)-4*a*c)**(0.5))/(2*a)
+e = ((-b)-((b**2)-4*a*c))/(2*a)
+print("roots of quadratic Equation = ", d, " ,", e)

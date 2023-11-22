@@ -1,0 +1,10 @@
+n1 = int(input("Enter number 1:"))
+n2 = int(input("Enter number 2:"))
+s = n1+n2
+d = n1-n2
+m = n1*n2
+q = n1/n2
+print("Sum=", s)
+print("Difference = ", d)
+print("product = ", m)
+print("quotient = ", q)
